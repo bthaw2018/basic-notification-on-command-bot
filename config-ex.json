@@ -1,0 +1,9 @@
+{
+    "token": "TOKEN_GOES_HERE",
+    "prefix": "%",
+    "command": "ask",
+    "sendToChannel": true,
+    "dmToUser": false,
+    "channelId": "CHANNEL_ID_GOES_HERE",
+    "userId": "USER_ID_GOES_HERE"
+}

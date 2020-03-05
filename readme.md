@@ -20,7 +20,7 @@ This bot can send messages to a user or in a channel whenever a command is execu
 6. Replace `TOKEN_GOES_HERE` in `config.json` with the token that you copied.
 7. Enter the ID of the channel to send the message in (see [here](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID- "here") to learn how to obtain channel IDs). Check out the [Customize](#customize) section to change what the bot does.
 
-##Customize
+## Customize
 You can choose whether to send a message in a specified channel, send a DM to another user, or send a message in a channel AND send a DM whenever a command is used. 
 
 By default, the bot will only send a message in the channel specified by `"channelId"`. 

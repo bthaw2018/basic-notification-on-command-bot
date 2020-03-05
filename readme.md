@@ -1,17 +1,17 @@
-#####Author
+##### Author
 This was created by [Benjamin Thaw](https://github.com/bthaw2018 "Benjamin Thaw").
 
 ## About
 This bot can send messages to a user or in a channel whenever a command is executed.
 
-##Installation and Running the Bot
+## Installation and Running the Bot
 1. Make sure you have [NodeJS installed](https://nodejs.org/en/download/).
 2. Download this repository into a folder on your computer or VM.
 3. Open terminal or command prompt, and change directories to the location of the folder (with `cd`).
 4. Configure the bot under [Initial Configuration](#initial-configuration)
 5. **Start the bot with `node bot.js`.**
 
-##Initial Configuration
+## Initial Configuration
 1. Rename `config-ex.json` to `config.json.
 2. Go to https://discordapp.com/developers/applications
 3. Sign in,  click "New Application", and enter a name.
@@ -26,7 +26,7 @@ You can choose whether to send a message in a specified channel, send a DM to an
 By default, the bot will only send a message in the channel specified by `"channelId"`. 
 
 You can have none, one, or both options enabled. To enable/disable one or more options, see below.
-####Sending a message in a channel
+#### Sending a message in a channel
 To **enable**:
 1. Open `config.json`.
 2. Change the value of `"sendToChannel"` to `true`.
@@ -36,7 +36,7 @@ To **disable**:
 1. Open `config.json`.
 2. Change the value of `"sendToChannel"` to `false`.
 
-####Sending a DM to a user
+#### Sending a DM to a user
 To **enable**:
 1. Open `config.json`.
 2. Change the value of `"dmToUser"` to `true`.

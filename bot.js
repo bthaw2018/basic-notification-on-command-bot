@@ -28,12 +28,15 @@ client.on('message', message => {
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
 
+    //put together args cause right now its an array
+    var argsContent = args.join(' ');
+
     //check if command is the command in the config
     if (command != config.command) return;
 
     //just send args in requested channels/DMs
 
-    var message = `**${message.author.tag} (<@${message.author.id}>)** has inquired about: ${args}`;
+    var message = `**${message.author.tag} (<@${message.author.id}>)** has inquired about: ${argsContent}`;
 
     if (config.sendToChannel) {
         if (config.channelId == "" || config.channelId == undefined) {
